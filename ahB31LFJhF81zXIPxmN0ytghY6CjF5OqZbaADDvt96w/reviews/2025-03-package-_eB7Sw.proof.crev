@@ -24,3 +24,29 @@ comment: |-
 vSLItpVEiJadmiL4Ui0eH1dsFBUemrCZuGrws7nQ5jFAj3WPfeHKsmZ2HaZx4UwenU2GMoW4LEnadhvqnJh7Cw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2025-03-01T22:01:18.471968022-06:00
+from:
+  id-type: crev
+  id: ahB31LFJhF81zXIPxmN0ytghY6CjF5OqZbaADDvt96w
+  url: https://github.com/austinhartzheim/crev-proofs
+package:
+  source: https://crates.io
+  name: cardinality-estimator
+  version: 1.0.2
+  revision: 94d63215f421311b6fd0ff8d65fd0076edeaf93b
+  digest: MPTMm_sxI_6grMP9c18wmdU-amrR-JwRxEubflKAJ78
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+comment: |-
+  I maintain this crate.
+  
+  There are several uses of `unsafe` for performance optimizations.
+----- SIGN CREV PROOF -----
+S8N4fVm8K7UsTHKwjdj80fbNHAihFVmftH5s86O09sbLiUYAlTZ9IDG39kr9s2LE7MuSZO3RU0U3D8qdxxKiBQ
+----- END CREV PROOF -----
+
