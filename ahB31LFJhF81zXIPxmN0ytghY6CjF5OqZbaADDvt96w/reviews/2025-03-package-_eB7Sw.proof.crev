@@ -1,0 +1,26 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2025-03-01T21:55:56.605220336-06:00
+from:
+  id-type: crev
+  id: ahB31LFJhF81zXIPxmN0ytghY6CjF5OqZbaADDvt96w
+  url: https://github.com/austinhartzheim/crev-proofs
+package:
+  source: https://crates.io
+  name: mmap-sync
+  version: 2.0.1
+  revision: d2cc9fb8b6f990bed344904b19bffddc78b726b5
+  digest: ponvbxRCzufCSk3pR93i2xSMO_l5PgNsVjSMZwx3R-8
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+comment: |-
+  I maintain this crate.
+  
+  Users of this crate should be aware of the single-writer requirement, and read the safety documentation for `Synchronizer::read`.
+----- SIGN CREV PROOF -----
+vSLItpVEiJadmiL4Ui0eH1dsFBUemrCZuGrws7nQ5jFAj3WPfeHKsmZ2HaZx4UwenU2GMoW4LEnadhvqnJh7Cw
+----- END CREV PROOF -----
+
